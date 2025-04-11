@@ -24,6 +24,6 @@
 
 ---
 
-| 題目 | 類型 | 難度 | 
-|------|------|------|
-| Contains Duplicate | Arrays & Hashing | Easy | 
+| 題目 | 類型 | 難度 | Python | Java | C++ |
+|------|------|------|--------|------|-----|
+| Contains Duplicate | Arrays & Hashing | Easy | ✅ | 🔲 | 🔲 |
