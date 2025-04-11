@@ -26,7 +26,7 @@ for num in nums:
 # 代表全部都不重複，回傳 False
 return False
 ```
-
+---
 ### 筆記補充：
 
 - `set()` 是一種無序且不重複的資料結構
@@ -47,7 +47,7 @@ return False
 - list.append(x): 加入元素到 list 結尾，允許重複
 - set 是無序的，不保證加入順序；list 保有順序
 
-
+---
 ❓為什麼在發現重複後直接 return？
 
 - 題目只要求知道「是否存在重複」
