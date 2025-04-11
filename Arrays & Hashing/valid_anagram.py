@@ -25,5 +25,17 @@
     # 回傳 True：如果兩個字串 由相同字母組成，且每個字母出現次數也完全相同
     # 回傳 False：如果兩個字串 長度不同，或是任一字母的出現次數不同
 
+
+from collections import Counter
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+        if Counter(s) == Counter(t):
+            return True
+        return False
+
+# ✅ 測試：本地測試用（非 LeetCode）
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.isAnagram(s = "racecar", t = "carrace"))  # True
+    print(sol.isAnagram(s = "jar", t = "jam"))  # False
