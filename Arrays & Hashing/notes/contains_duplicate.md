@@ -1,6 +1,6 @@
 # 題目：Contains Duplicate
-# 類別：Arrays & Hashing
-# 難度：Easy
+- 類別：Arrays & Hashing
+- 難度：Easy
 
 **筆記**：
 - 使用 set 判斷是否有重複數字（查詢速度 O(1)）
