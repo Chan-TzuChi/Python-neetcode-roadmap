@@ -21,3 +21,9 @@
 
 - This is a learning-oriented project. All solutions are self-implemented and not directly copied from others.
 - Open to feedback, collaboration, or comparison with your own approaches.
+
+## Arrays & Hashing
+
+| 題目 | 類型 | 難度 | 解法連結 |
+|------|------|------|----------|
+| Contains Duplicate | Arrays & Hashing | Easy | [解法 🔗](Arrays & Hashing/contains_duplicate.py) |
